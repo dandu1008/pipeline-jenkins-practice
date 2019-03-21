@@ -1,6 +1,6 @@
 pipeline{
     
-    agent none
+    agent any
     
     options {
         timestamps() //its required timestamper plugin
