@@ -12,9 +12,9 @@ pipeline{
 
             agent any
 
-            options {
-                skipDefaultCheckout()   
-            }
+           // options {
+           //     skipDefaultCheckout()   
+           //}
             
             steps{
                 echo "Hello World in Build"
