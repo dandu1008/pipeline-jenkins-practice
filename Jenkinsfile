@@ -8,10 +8,12 @@ pipeline{
     
     stages {
         agent any
-        options {
-            skipDefaultCheckout()   
-            }
+        
         stage ('Build'){
+            options {
+                skipDefaultCheckout()   
+            }
+            
             steps{
                 echo "Hello World in Build"
             }
