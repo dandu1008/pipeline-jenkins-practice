@@ -7,9 +7,11 @@ pipeline{
     }
     
     stages {
-        agent any
         
         stage ('Build'){
+
+            agent any
+
             options {
                 skipDefaultCheckout()   
             }
